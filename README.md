@@ -48,3 +48,10 @@ Os produtos e preços no catálogo são fictícios. Não há uso de fotos ou ví
 ## Limitações e próximo passo
 
 Não há login, banco persistente, pagamento, frete real, garantia de estoque, upload real de imagens, integrações de redes sociais ou emissão fiscal. Antes do lançamento real: definir políticas e criar backend com autenticação e banco durável.
+
+## Atualização — fotos e Pix demonstrativo
+
+- Seis fotos fornecidas pelo usuário incluídas em `public/produtos/`, substituindo apenas os placeholders. Os nomes originais no catálogo foram preservados.
+- O checkout oferece **Simular pagamento por Pix** (janela de demonstração, nenhuma cobrança, chave Pix, QR Code ou liquidação) e **Finalizar pelo WhatsApp** (exige `NEXT_PUBLIC_STORE_WHATSAPP` configurado).
+- Como os produtos usam `localStorage`, o app aplica as novas fotos a produtos antigos que ainda não tinham imagem, sem apagar a sacola.
+- **Atenção:** preços, descrições, variantes e estoque seguem ilustrativos e precisam de confirmação pela loja. As cores cadastradas originalmente podem não corresponder às novas fotos.

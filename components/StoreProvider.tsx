@@ -7,7 +7,7 @@ type State={products:Product[];cart:CartItem[];orders:DemoOrder[]; add:(p:Produc
 const Context=createContext<State|null>(null);
 export function StoreProvider({children}:{children:React.ReactNode}){
  const [products,setProducts]=useState<Product[]>(initialProducts);const [cart,setCart]=useState<CartItem[]>([]);const [orders,setOrders]=useState<DemoOrder[]>([]);const [loaded,setLoaded]=useState(false);
- useEffect(()=>{try{const p=localStorage.getItem('lallis_products');const c=localStorage.getItem('lallis_cart');const o=localStorage.getItem('lallis_orders');if(p)setProducts(JSON.parse(p));if(c)setCart(JSON.parse(c));if(o)setOrders(JSON.parse(o));}catch{}setLoaded(true)},[]);
+ useEffect(()=>{try{const p=localStorage.getItem('lallis_products');const c=localStorage.getItem('lallis_cart');const o=localStorage.getItem('lallis_orders');if(p){const saved=JSON.parse(p) as Product[];setProducts(saved.map(item=>{const seed=initialProducts.find(x=>x.id===item.id);return seed?.image && !item.image ? {...item,image:seed.image}:item}));}if(c)setCart(JSON.parse(c));if(o)setOrders(JSON.parse(o));}catch{}setLoaded(true)},[]);
  useEffect(()=>{if(loaded)localStorage.setItem('lallis_products',JSON.stringify(products));},[loaded,products]);
  useEffect(()=>{if(loaded)localStorage.setItem('lallis_cart',JSON.stringify(cart));},[loaded,cart]);
  useEffect(()=>{if(loaded)localStorage.setItem('lallis_orders',JSON.stringify(orders));},[loaded,orders]);

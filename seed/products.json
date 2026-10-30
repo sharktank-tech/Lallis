@@ -1,8 +1,124 @@
 [
- {"id":"vestido-aurora","name":"Vestido Aurora","category":"Vestidos","description":"Modelo midi em tom rosa, para compor looks delicados. Descrição ilustrativa.","price":189.9,"sizes":["P","M","G"],"colors":["Rosa blush"],"stock":8,"tone":"blush","tag":"Novidade","video":false},
- {"id":"vestido-luna","name":"Vestido Luna","category":"Vestidos","description":"Vestido longo de visual leve. Peça ilustrativa para demonstração.","price":229.9,"sizes":["P","M","G","GG"],"colors":["Creme","Azul claro"],"stock":5,"tone":"cream","tag":"Favorito","video":true},
- {"id":"vestido-flora","name":"Vestido Flora","category":"Vestidos","description":"Vestido com proposta floral e caimento romântico. Cadastro ilustrativo.","price":219.9,"sizes":["P","M","G"],"colors":["Floral"],"stock":4,"tone":"floral","tag":"Novo","video":true},
- {"id":"vestido-maris","name":"Vestido Maris","category":"Vestidos","description":"Vestido elegante para momentos especiais. Exemplo fictício.","price":249.9,"sizes":["M","G"],"colors":["Azul claro"],"stock":6,"tone":"blue","tag":"Novidade","video":false},
- {"id":"tshirt-laco","name":"T-Shirt Laço","category":"Camisetas","description":"Camiseta slim com motivo de laço. Item de demonstração.","price":89.9,"sizes":["P","M","G"],"colors":["Branco","Rosa"],"stock":12,"tone":"white","tag":"Essencial","video":true},
- {"id":"vestido-rubi","name":"Vestido Rubi","category":"Vestidos","description":"Vestido longo em tom marcante. Preço e disponibilidade ilustrativos.","price":239.9,"sizes":["P","M","G"],"colors":["Vermelho"],"stock":3,"tone":"rose","tag":"Novo","video":false}
+  {
+    "id": "vestido-aurora",
+    "name": "Vestido Aurora",
+    "category": "Vestidos",
+    "description": "Modelo midi em tom rosa, para compor looks delicados. Descrição ilustrativa.",
+    "price": 189.9,
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "colors": [
+      "Rosa blush"
+    ],
+    "stock": 8,
+    "tone": "blush",
+    "tag": "Novidade",
+    "video": false,
+    "image": "/produtos/vestido-2.jpg"
+  },
+  {
+    "id": "vestido-luna",
+    "name": "Vestido Luna",
+    "category": "Vestidos",
+    "description": "Vestido longo de visual leve. Peça ilustrativa para demonstração.",
+    "price": 229.9,
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      "Creme",
+      "Azul claro"
+    ],
+    "stock": 5,
+    "tone": "cream",
+    "tag": "Favorito",
+    "video": true,
+    "image": "/produtos/vestido-3.jpg"
+  },
+  {
+    "id": "vestido-flora",
+    "name": "Vestido Flora",
+    "category": "Vestidos",
+    "description": "Vestido com proposta floral e caimento romântico. Cadastro ilustrativo.",
+    "price": 219.9,
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "colors": [
+      "Floral"
+    ],
+    "stock": 4,
+    "tone": "floral",
+    "tag": "Novo",
+    "video": true,
+    "image": "/produtos/vestido-1.jpg"
+  },
+  {
+    "id": "vestido-maris",
+    "name": "Vestido Maris",
+    "category": "Vestidos",
+    "description": "Vestido elegante para momentos especiais. Exemplo fictício.",
+    "price": 249.9,
+    "sizes": [
+      "M",
+      "G"
+    ],
+    "colors": [
+      "Azul claro"
+    ],
+    "stock": 6,
+    "tone": "blue",
+    "tag": "Novidade",
+    "video": false,
+    "image": "/produtos/vestido-4.jpg"
+  },
+  {
+    "id": "tshirt-laco",
+    "name": "T-Shirt Laço",
+    "category": "Camisetas",
+    "description": "Camiseta slim com motivo de laço. Item de demonstração.",
+    "price": 89.9,
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "colors": [
+      "Branco",
+      "Rosa"
+    ],
+    "stock": 12,
+    "tone": "white",
+    "tag": "Essencial",
+    "video": true,
+    "image": "/produtos/camiseta.jpg"
+  },
+  {
+    "id": "vestido-rubi",
+    "name": "Vestido Rubi",
+    "category": "Vestidos",
+    "description": "Vestido longo em tom marcante. Preço e disponibilidade ilustrativos.",
+    "price": 239.9,
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "colors": [
+      "Vermelho"
+    ],
+    "stock": 3,
+    "tone": "rose",
+    "tag": "Novo",
+    "video": false,
+    "image": "/produtos/vestido-5.jpg"
+  }
 ]
