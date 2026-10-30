@@ -1,0 +1,45 @@
+cat > .gitignore <<'EOF'
+# Dependências
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Configurações privadas
+.env
+.env.*
+!.env.example
+
+# Bancos de dados
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+prisma/*.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos internos
+PLAN.md
+TODO_DADOS.md
+BRIEFING_REFERENCIA.md
+input/
+
+# Sistema
+.DS_Store
+EOF
+node_modules/
+.next/
+.env*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+*.tsbuildinfo
